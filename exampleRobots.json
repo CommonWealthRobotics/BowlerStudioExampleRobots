@@ -3,5 +3,36 @@
     "scriptGit": "https://gist.github.com/21f739b0d9fb10e81af9.git",
     "scriptFile": "cartWalker.xml"
   }
-  
+  "CNC Controller": {
+    "scriptGit": "https://gist.github.com/51a9e0bc4ee095b03979.git",
+    "scriptFile": "CNC.xml"
+  }
+  "Robot Arm Work Cell": {
+    "scriptGit": "https://gist.github.com/2b0cff20ccee085c9c36.git",
+    "scriptFile": "TrobotLinks.xml"
+  }
+  "Carl The Hexapod": {
+    "scriptGit": "https://gist.github.com/bcb4760a449190206170.git",
+    "scriptFile": "CarlTheRobot.xml"
+  }
+  "Grasshopper": {
+    "scriptGit": "https://gist.github.com/a6cbefc11693162cf9d4.git",
+    "scriptFile": "GrassHopper.xml"
+  }
+  "CMM Input Arm": {
+    "scriptGit": "https://gist.github.com/98892e87253005adbe4a.git",
+    "scriptFile": "TrobotMaster.xml"
+  }
+  "humanoid": {
+    "scriptGit": "https://gist.github.com/a991ca954460c1ba9860.git",
+    "scriptFile": "humanoid.xml"
+  }
+  "Elephant": {
+    "scriptGit": "https://gist.github.com/aef13d65093951d13235.git",
+    "scriptFile": "Elephant.xml"
+  }
+  "Dog Robot": {
+    "scriptGit": "https://gist.github.com/f5b82075ea6dcca93f1ea44265497ec5.git",
+    "scriptFile": "DogRobot.xml"
+  }
 }
