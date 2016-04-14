@@ -23,7 +23,7 @@
     "scriptGit": "https://gist.github.com/98892e87253005adbe4a.git",
     "scriptFile": "TrobotMaster.xml"
   },
-  "humanoid": {
+  "Humanoid": {
     "scriptGit": "https://gist.github.com/a991ca954460c1ba9860.git",
     "scriptFile": "humanoid.xml"
   },
