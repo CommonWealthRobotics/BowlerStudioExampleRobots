@@ -27,10 +27,6 @@
     "scriptGit": "https://gist.github.com/a991ca954460c1ba9860.git",
     "scriptFile": "humanoid.xml"
   },
-  "Elephant": {
-    "scriptGit": "https://gist.github.com/aef13d65093951d13235.git",
-    "scriptFile": "Elephant.xml"
-  },
   "Dog Robot": {
     "scriptGit": "https://gist.github.com/f5b82075ea6dcca93f1ea44265497ec5.git",
     "scriptFile": "DogRobot.xml"
