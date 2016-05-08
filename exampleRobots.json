@@ -30,5 +30,9 @@
   "Dog Robot": {
     "scriptGit": "https://gist.github.com/f5b82075ea6dcca93f1ea44265497ec5.git",
     "scriptFile": "DogRobot.xml"
+  },
+  "Paulas Giraffe": {
+    "scriptGit": "https://gist.github.com/7bf35c08e5ce9d6258b40c9ce9f3b9cd.git",
+    "scriptFile": "Paulas_Giraffe.xml"
   }
 }
