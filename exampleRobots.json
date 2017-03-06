@@ -12,7 +12,7 @@
     "scriptFile": "TrobotLinks.xml"
   },
   "Carl The Hexapod": {
-    "scriptGit": "https://gist.github.com/bcb4760a449190206170.git",
+    "scriptGit": "https://github.com/madhephaestus/carl-the-hexapod.git",
     "scriptFile": "CarlTheRobot.xml"
   },
   "Grasshopper": {
@@ -35,7 +35,7 @@
     "scriptGit": "https://github.com/NeuronRobotics/NASACurisoity.git",
     "scriptFile": "NASA_Curiosity.xml"
   },
-  "Paulas Giraffe": {
+  "Giraffe": {
     "scriptGit": "https://gist.github.com/7bf35c08e5ce9d6258b40c9ce9f3b9cd.git",
     "scriptFile": "Paulas_Giraffe.xml"
   }
