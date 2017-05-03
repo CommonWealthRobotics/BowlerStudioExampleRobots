@@ -38,5 +38,9 @@
   "Giraffe": {
     "scriptGit": "https://gist.github.com/7bf35c08e5ce9d6258b40c9ce9f3b9cd.git",
     "scriptFile": "Paulas_Giraffe.xml"
+  },
+  "Geared Arm": {
+    "scriptGit": "https://github.com/madhephaestus/SeriesElasticActuator.git",
+    "scriptFile": "seaArm.xml"
   }
 }
