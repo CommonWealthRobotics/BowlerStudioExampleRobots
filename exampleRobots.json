@@ -43,4 +43,8 @@
     "scriptGit": "https://github.com/madhephaestus/SeriesElasticActuator.git",
     "scriptFile": "seaArm.xml"
   }
+  "SmallKat": {
+    "scriptGit": "git@github.com:CommonWealthRobotics/SmallKat.git",
+    "scriptFile": "loadRobot.groovy"
+  }
 }
