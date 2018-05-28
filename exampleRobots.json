@@ -44,7 +44,7 @@
     "scriptFile": "seaArm.xml"
   },
   "SmallKat": {
-    "scriptGit": "git@github.com:CommonWealthRobotics/SmallKat.git",
+    "scriptGit": "https://github.com/CommonWealthRobotics/SmallKat.git",
     "scriptFile": "loadRobot.groovy"
   }
 }
