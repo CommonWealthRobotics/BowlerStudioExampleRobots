@@ -43,6 +43,10 @@
     "scriptGit": "https://github.com/madhephaestus/SeriesElasticActuator.git",
     "scriptFile": "seaArm.xml"
   },
+  "SmallKat HID": {
+    "scriptGit": "https://github.com/OperationSmallKat/HIDSmallKat.git",
+    "scriptFile": "HIDSmallKat.xml"
+  },
   "SmallKat Grace": {
     "scriptGit": "https://github.com/OperationSmallKat/greycat.git",
     "scriptFile": "launch.groovy"
