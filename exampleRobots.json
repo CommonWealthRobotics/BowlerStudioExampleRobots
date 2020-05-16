@@ -40,8 +40,12 @@
     "scriptFile": "Paulas_Giraffe.xml"
   },
   "Hephaestus Arm": {
-    "scriptGit": "https://github.com/madhephaestus/SeriesElasticActuator.git",
+    "scriptGit": "https://github.com/Hephaestus-Arm/SeriesElasticActuator.git",
     "scriptFile": "seaArm.xml"
+  },
+  "Hephaestus Arm v2 RBE3001": {
+    "scriptGit": "https://github.com/Hephaestus-Arm/HephaestusArm2.git",
+    "scriptFile": "hephaestus.xml"
   },
   "SmallKat HID": {
     "scriptGit": "https://github.com/OperationSmallKat/HIDSmallKat.git",
