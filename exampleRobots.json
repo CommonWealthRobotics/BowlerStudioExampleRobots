@@ -47,9 +47,13 @@
     "scriptGit": "https://github.com/Hephaestus-Arm/HephaestusArm2.git",
     "scriptFile": "hephaestus.xml"
   },
-  "Paralell robot": {
+  "Parallel robot": {
     "scriptGit": "https://github.com/madhephaestus/BowlerParalellRobot.git",
     "scriptFile": "BowlerParalellRobot.xml"
+  },
+  "Dinsey Series-Parallel Limb": {
+    "scriptGit": "https://github.com/madhephaestus/6dofServoArm.git",
+    "scriptFile": "6dofServoArm.xml"
   },
   "SmallKat HID": {
     "scriptGit": "https://github.com/OperationSmallKat/HIDSmallKat.git",
