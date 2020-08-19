@@ -62,5 +62,9 @@
   "SmallKat Grace": {
     "scriptGit": "https://github.com/OperationSmallKat/greycat.git",
     "scriptFile": "launch.groovy"
+  },
+  "SmallKat Luna": {
+    "scriptGit": "https://github.com/OperationSmallKat/Luna.git",
+    "scriptFile": "launch.groovy"
   }
 }
