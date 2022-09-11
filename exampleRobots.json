@@ -46,12 +46,15 @@
   "Hephaestus Arm v2 RBE3001": {
     "scriptGit": "https://github.com/Hephaestus-Arm/HephaestusArm2.git",
     "scriptFile": "hephaestus.xml"
+  },"6 dof Hephaestus Arm v3": {
+    "scriptGit": "https://github.com/Halloween2020TheChild/GroguMechanicsCad.git",
+    "scriptFile": "hephaestus.xml"
   },
   "Parallel robot": {
     "scriptGit": "https://github.com/madhephaestus/BowlerParalellRobot.git",
     "scriptFile": "BowlerParalellRobot.xml"
   },
-  "Dinsey Series-Parallel Limb": {
+  "Disney Series-Parallel Limb": {
     "scriptGit": "https://github.com/madhephaestus/6dofServoArm.git",
     "scriptFile": "6dofServoArm.xml"
   },
@@ -66,5 +69,14 @@
   "SmallKat Luna": {
     "scriptGit": "https://github.com/OperationSmallKat/Luna.git",
     "scriptFile": "launch.groovy"
+  }
+  ,
+  "Fanuc_Delta_DR-3iB": {
+    "scriptGit": "https://github.com/madhephaestus/Fanuc_Delta_DR-3iB.git",
+    "scriptFile": "Fanuc_Delta_DR-3iB.xml"
+  }  ,
+  "Fanuc_LR_Mate_200id_7L": {
+    "scriptGit": "https://github.com/madhephaestus/Fanuc_LR_Mate_200id_7L.git",
+    "scriptFile": "Fanuc_LR_Mate_200id_7L.xml"
   }
 }
