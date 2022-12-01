@@ -71,11 +71,16 @@
     "scriptFile": "launch.groovy"
   }
   ,
-  "Fanuc_Delta_DR-3iB": {
+  "Fanuc DR-3iB Delta": {
     "scriptGit": "https://github.com/madhephaestus/Fanuc_Delta_DR-3iB.git",
     "scriptFile": "Fanuc_Delta_DR-3iB.xml"
   }  ,
-  "Fanuc_LR_Mate_200id_7L": {
+  
+  "Fanuc SR-12ia Scara": {
+    "scriptGit": "https://github.com/madhephaestus/Fanuc_SR_12ia-Scara.git",
+    "scriptFile": "Fanuc_Delta_DR-3iB.xml"
+  }  ,
+  "Fanuc LRMate-200id_7L 6dof": {
     "scriptGit": "https://github.com/madhephaestus/Fanuc_LR_Mate_200id_7L.git",
     "scriptFile": "Fanuc_LR_Mate_200id_7L.xml"
   }
