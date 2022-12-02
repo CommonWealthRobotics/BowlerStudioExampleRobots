@@ -78,7 +78,7 @@
   
   "Fanuc SR-12ia Scara": {
     "scriptGit": "https://github.com/madhephaestus/Fanuc_SR_12ia-Scara.git",
-    "scriptFile": "Fanuc_Delta_DR-3iB.xml"
+    "scriptFile": "Fanuc_SR_12ia.xml"
   }  ,
   "Fanuc LRMate-200id_7L 6dof": {
     "scriptGit": "https://github.com/madhephaestus/Fanuc_LR_Mate_200id_7L.git",
