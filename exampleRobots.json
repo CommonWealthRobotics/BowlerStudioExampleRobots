@@ -46,7 +46,8 @@
   "Hephaestus Arm v2 RBE3001": {
     "scriptGit": "https://github.com/Hephaestus-Arm/HephaestusArm2.git",
     "scriptFile": "hephaestus.xml"
-  },"6 dof Hephaestus Arm v3": {
+  },
+  "Hephaestus Arm v3 (6 dof)": {
     "scriptGit": "https://github.com/Halloween2020TheChild/GroguMechanicsCad.git",
     "scriptFile": "hephaestus.xml"
   },
