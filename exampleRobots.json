@@ -76,7 +76,10 @@
     "scriptGit": "https://github.com/madhephaestus/Fanuc_Delta_DR-3iB.git",
     "scriptFile": "Fanuc_Delta_DR-3iB.xml"
   }  ,
-  
+   "Staubli scara ts2-100-vb": {
+    "scriptGit": "https://github.com/madhephaestus/Staubli_scara_ts2_100_vb.git",
+    "scriptFile": "Staubli_scara_ts2_100_vb.xml"
+  }  ,
   "Fanuc SR-12ia Scara": {
     "scriptGit": "https://github.com/madhephaestus/Fanuc_SR_12ia-Scara.git",
     "scriptFile": "Fanuc_SR_12ia.xml"
