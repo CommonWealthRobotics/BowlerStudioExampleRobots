@@ -14,6 +14,8 @@ return new ICadGenerator(){
 		// TODO Auto-generated method stub
 		ArrayList<CSG> back =[]
 		back.add(new Cube(1).toCSG())
+		for(CSG c:back)
+			c.setManipulator(arg0.getLinkObjectManipulator(arg1))
 		return back;
 	}
 
@@ -22,6 +24,12 @@ return new ICadGenerator(){
 		// TODO Auto-generated method stub
 		ArrayList<CSG> back =[]
 		back.add(new Cube(1).toCSG())
+		for(CSG c:back)
+			c.setManipulator(arg0.getRootListener())
+		for(DHParameterKinematics kin:arg0.getAllDHChains()) {
+			CSG limbRoot =new Cube(1).toCSG()
+			limbRoot.setManipulator(kin.getRootListener())
+		}
 		return back;
 	}
 	
