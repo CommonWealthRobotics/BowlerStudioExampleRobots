@@ -72,6 +72,11 @@
     "scriptFile": "launch.groovy"
   }
   ,
+   "SmallKat Marcos": {
+    "scriptGit": "https://github.com/OperationSmallKat/Marcos.git",
+    "scriptFile": "Marcos.xml"
+  }
+  ,
   "Fanuc DR-3iB Delta": {
     "scriptGit": "https://github.com/madhephaestus/Fanuc_Delta_DR-3iB.git",
     "scriptFile": "Fanuc_Delta_DR-3iB.xml"
