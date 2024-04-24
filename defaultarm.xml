@@ -12,8 +12,8 @@
 	</kinematics>
 <link>
 	<name>basePan</name>
-	<deviceName>dyio</deviceName>
-	<type>servo-rotory</type>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
 	<index>11</index>
 	<scale>0.33</scale>
 	<upperLimit>255.0</upperLimit>
@@ -44,8 +44,8 @@
 </link>
 <link>
 	<name>baseTilt</name>
-	<deviceName>dyio</deviceName>
-	<type>servo-rotory</type>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
 	<index>10</index>
 	<scale>0.33</scale>
 	<upperLimit>255.0</upperLimit>
@@ -76,8 +76,8 @@
 </link>
 <link>
 	<name>elbow</name>
-	<deviceName>dyio</deviceName>
-	<type>servo-rotory</type>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
 	<index>9</index>
 	<scale>0.33</scale>
 	<upperLimit>255.0</upperLimit>
