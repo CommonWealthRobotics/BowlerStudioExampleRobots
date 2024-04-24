@@ -10,8 +10,8 @@
 	</kinematics>
 <link>
 	<name>wheel</name>
-	<deviceName>dyio</deviceName>
-	<type>pid-tool</type>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
 	<index>1</index>
 	<scale>0.33</scale>
 	<upperLimit>1.0E8</upperLimit>
