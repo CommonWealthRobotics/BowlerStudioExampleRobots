@@ -1,5 +1,5 @@
 <root>
-<drivable>
+<appendage>
 
 <name>wheel</name>
 	<cadEngine>
@@ -117,5 +117,5 @@
 
 </baseToZframe>
 
-</drivable>
+</appendage>
 </root>
