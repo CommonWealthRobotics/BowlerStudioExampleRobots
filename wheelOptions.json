@@ -1,0 +1,18 @@
+{
+  "Fixed Wheel": {
+    "scriptGit": "https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git",
+    "scriptFile": "defaultFixed.xml"
+  },
+  "2.75 inch Omni Wheel": {
+    "scriptGit": "https://github.com/CommonWealthRobotics/HolonomicWheels.git",
+    "scriptFile": "2.75InchOmniExample.xml"
+  },
+  "3.25 inch Omni Wheel": {
+    "scriptGit": "https://github.com/CommonWealthRobotics/HolonomicWheels.git",
+    "scriptFile": "3.25InchOmniExample.xml"
+  },
+  "4 inch Omni Wheel": {
+    "scriptGit": "https://github.com/CommonWealthRobotics/HolonomicWheels.git",
+    "scriptFile": "4InchOmniExample.xml"
+  }
+}
