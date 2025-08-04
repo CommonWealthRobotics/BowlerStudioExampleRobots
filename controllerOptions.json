@@ -1,0 +1,12 @@
+{
+"ESP 32 Dev Kit C v4":{
+	"cad":["git","file"],
+	"linkLoader":["git":"file"]
+	"":
+}
+"Microbit with ElecFreak":{
+	"cad":["git","file"],
+	"linkLoader":["git":"file"]
+}
+
+}
