@@ -1,5 +1,13 @@
 [
 	{
-		type:"Micro:BIT ElecFreak"
+		type:"Micro:BIT ElecFreak",
+		servoChannels:8,
+		motorChannels:2,
+		analogSensorChannels:8,
+		digitalSensorChannels:8,
+		inertialSensors:1,
+		batteryVoltage:5.0,
+		batteryMaH:400.0
+		batteryPeakMa:600.0,
 	}
 ]
