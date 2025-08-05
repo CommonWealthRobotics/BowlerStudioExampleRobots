@@ -1,13 +1,21 @@
 [
 	{
 		type:"Micro:BIT ElecFreak",
-		servoChannels:8,
-		motorChannels:2,
-		analogSensorChannels:8,
-		digitalSensorChannels:8,
-		inertialSensors:1,
-		batteryVoltage:5.0,
-		batteryMaH:400.0
-		batteryPeakMa:600.0,
+		imageGit:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git",
+		imageFile:"microbit.png",
+		linkDeviceName:"microbit-virtual",
+		linkDeviceType:"virtual",
+		vitaminType:["microbit"],
+		vitaminSize:["elecfreak"],
+		provides:{
+			servoChannels:8,
+			motorChannels:2,
+			analogSensorChannels:8,
+			digitalSensorChannels:8,
+			inertialSensors:1,
+			voltages:[3.7,5.0],
+			batteryWattHour:1480.0,
+			batteryPeakWatt:4440
+		}
 	}
 ]
