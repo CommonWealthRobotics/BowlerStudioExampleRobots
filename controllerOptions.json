@@ -7,6 +7,17 @@
 		linkDeviceType:"virtual",
 		vitaminType:["microbit"],
 		vitaminSize:["elecfreak"],
+		vitaminPose:[ {
+          "x": 0,
+          "y": 0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0
+          }
+        }],
 		provides:{
 			servoChannels:8,
 			motorChannels:2,
