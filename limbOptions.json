@@ -38,7 +38,7 @@
 		url:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git", 
 		file:"defaultFixedServo.xml",
 		consumes:{
-			servoChannels:2,
+			servoChannels:1,
 			voltages:[3.7,5,6],
 			batteryPeakWatt:1.28
 		}
