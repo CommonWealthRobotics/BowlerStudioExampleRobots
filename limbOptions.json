@@ -1,4 +1,80 @@
 [
-
+	{
+		name:"Mg92b Leg",
+		type:leg,
+		url:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git", 
+		file:"defaultleg.xml",
+		consumes:{
+			servoChannels:3,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	},
+	{
+		name:"Mg92b Arm",
+		type:arm,
+		url:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git", 
+		file:"defaultarm.xml",
+		consumes:{
+			servoChannels:3,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	},
+	{
+		name:"Mg92b Steerable Wheel",
+		type:steerable,
+		url:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git", 
+		file:"defaultSteerable.xml",
+		consumes:{
+			servoChannels:2,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	},
+	{
+		name:"Fixed Wheel",
+		type:wheel,
+		url:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git", 
+		file:"defaultFixed.xml",
+		consumes:{
+			servoChannels:1,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	},
+	{
+		name:"2.75 inch Omni Wheel",
+		type:wheel,
+		url:"https://github.com/CommonWealthRobotics/HolonomicWheels.git", 
+		file:"2_75InchOmniExample.xml",
+		consumes:{
+			servoChannels:1,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	},
+	{
+		name:"3.25 inch Omni Wheel",
+		type:wheel,
+		url:"https://github.com/CommonWealthRobotics/HolonomicWheels.git", 
+		file:"3_25InchOmniExample.xml",
+		consumes:{
+			servoChannels:1,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	},
+	{
+		name:"4 inch Omni Wheel",
+		type:wheel,
+		url:"https://github.com/CommonWealthRobotics/HolonomicWheels.git", 
+		file:"4InchOmniExample.xml",
+		consumes:{
+			servoChannels:1,
+			voltages:[3.7,5,6],
+			batteryPeakWatt:1.28
+		}
+	}
 
 ]
