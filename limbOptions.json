@@ -33,47 +33,50 @@
 		}
 	},
 	{
-		name:"Fixed Wheel",
+		name:"Vex Fixed Wheel",
 		type:wheel,
 		url:"https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git", 
 		file:"defaultFixed.xml",
 		consumes:{
-			servoChannels:1,
-			voltages:[3.7,5,6],
-			batteryPeakWatt:1.28
+			vexV5Motors:1,
+			voltages:[12.8],
+			batteryPeakWatt:11
 		}
 	},
 	{
-		name:"2.75 inch Omni Wheel",
+		name:"Vex 2.75 inch Omni Wheel",
 		type:wheel,
 		url:"https://github.com/CommonWealthRobotics/HolonomicWheels.git", 
 		file:"2_75InchOmniExample.xml",
+		composite=true,
 		consumes:{
-			servoChannels:1,
-			voltages:[3.7,5,6],
-			batteryPeakWatt:1.28
+			vexV5Motors:1,
+			voltages:[12.8],
+			batteryPeakWatt:11
 		}
 	},
 	{
-		name:"3.25 inch Omni Wheel",
+		name:"Vex 3.75 inch Omni Wheel",
 		type:wheel,
 		url:"https://github.com/CommonWealthRobotics/HolonomicWheels.git", 
-		file:"3_25InchOmniExample.xml",
+		file:"3_75InchOmniExample.xml",
+		composite=true,
 		consumes:{
-			servoChannels:1,
-			voltages:[3.7,5,6],
-			batteryPeakWatt:1.28
+			vexV5Motors:1,
+			voltages:[12.8],
+			batteryPeakWatt:11
 		}
 	},
 	{
-		name:"4 inch Omni Wheel",
+		name:"Vex 4 inch Omni Wheel",
 		type:wheel,
 		url:"https://github.com/CommonWealthRobotics/HolonomicWheels.git", 
 		file:"4InchOmniExample.xml",
+		composite=true,
 		consumes:{
-			servoChannels:1,
-			voltages:[3.7,5,6],
-			batteryPeakWatt:1.28
+			vexV5Motors:1,
+			voltages:[12.8],
+			batteryPeakWatt:11
 		}
 	}
 
