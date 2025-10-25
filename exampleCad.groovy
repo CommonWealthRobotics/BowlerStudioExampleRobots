@@ -61,7 +61,7 @@ class myCadGen implements ICadGenerator{
 
 	@Override
 	public ArrayList<CSG> generateBody(MobileBase b) {
-		MobileBaseCadManager manager  = MobileBaseCadManager.get(b);
+		MobileBaseCadManager manager  = MobileBaseCadManager.get(csgdb,b);
 		ArrayList<CSG> back =[]
 		back.addAll(manager.getVitaminsDisplay(b,b.getRootListener()));
 		for(CSG c:back) {
