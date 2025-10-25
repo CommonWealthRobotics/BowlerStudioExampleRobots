@@ -8,11 +8,14 @@ import eu.mihosoft.vrl.v3d.CSG
 import eu.mihosoft.vrl.v3d.Cube
 import javafx.scene.transform.Affine
 
-return new ICadGenerator(){
-
+class myCadGen implements ICadGenerator{
+	eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance csgdb;
+	public myCadGen(eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance db) {
+		csgdb=db;
+	}
 	@Override
 	public ArrayList<CSG> generateCad(DHParameterKinematics d, int i) {
-		MobileBaseCadManager manager  = MobileBaseCadManager.get(d.getLinkConfiguration(i));
+		MobileBaseCadManager manager  = MobileBaseCadManager.get(csgdb,d.getLinkConfiguration(i));
 		TransformNR offset = d.getDHStep(i).inverse();
 		
 		ArrayList<CSG> back =[]
@@ -23,13 +26,13 @@ return new ICadGenerator(){
 		Affine manipulator = d.getListener(i);
 		
 		if(manager!=null) {
-			back.addAll(manager.getOriginVitaminsDisplay(
+			back.addAll(manager.getOriginVitaminsDisplay(csgdb,
 				d.getAbstractLink(i),
 				manipulator,offset));
-			back.addAll(manager.getDefaultVitaminsDisplay(
+			back.addAll(manager.getDefaultVitaminsDisplay(csgdb,
 				d.getAbstractLink(i),
 				manipulator));
-			back.addAll(manager.getPreviousLinkVitaminsDisplay(
+			back.addAll(manager.getPreviousLinkVitaminsDisplay(csgdb,
 				d.getAbstractLink(i),
 				lastLinkAffine));
 		}else{
@@ -39,13 +42,13 @@ return new ICadGenerator(){
 			c.getStorage().set("no-physics",true)
 		}
 		if(manager!=null) {
-			back.addAll(manager.getOriginVitamins(
+			back.addAll(manager.getOriginVitamins(csgdb,
 				d.getAbstractLink(i),
 				manipulator,offset));
-			back.addAll(manager.getDefaultVitamins(
+			back.addAll(manager.getDefaultVitamins(csgdb,
 				d.getAbstractLink(i),
 				manipulator));
-			back.addAll(manager.getPreviousLinkVitamins(
+			back.addAll(manager.getPreviousLinkVitamins(csgdb,
 				d.getAbstractLink(i),
 				lastLinkAffine));
 		}
@@ -79,3 +82,7 @@ return new ICadGenerator(){
 	
 	
 }
+
+return new myCadGen(csgdb)
+
+
