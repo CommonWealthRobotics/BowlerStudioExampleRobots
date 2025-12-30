@@ -3,7 +3,7 @@
 
 <name>wheel</name>
 	<cadEngine>
-		<git>https://github.com/madhephaestus/VexVitaminsRobot.git</git>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>servoWheelCad.groovy</file>
 	</cadEngine>
 	<kinematics>
@@ -52,14 +52,13 @@
 	<DHParameters>
 		<Delta>0.0</Delta>
 		<Theta>0.0</Theta>
-		<Radius>52.0</Radius>
+		<Radius>5</Radius>
 		<Alpha>0.0</Alpha>
 	</DHParameters>
 
 </link>
 
-<ZframeToRAS
->
+<ZframeToRAS>
 	<x>0.0</x>
 	<y>0.0</y>
 	<z>0.0</z>
@@ -67,18 +66,17 @@
 	<rotx>-0.0</rotx>
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
-
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>58.2</x>
-	<y>-12.599999999999998</y>
-	<z>12.6</z>
-	<rotw>0.5048458934646433</rotw>
-	<rotx>0.5048458934646445</rotx>
-	<roty>0.49510667926406</roty>
-	<rotz>-0.4951066792640614</rotz>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </baseToZframe>
 

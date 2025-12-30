@@ -10,14 +10,13 @@ import javafx.scene.transform.Affine
 
 class servoWheelGen implements ICadGenerator{
 	eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance csgdb;
-	public myCadGen(eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance db) {
+	public servoWheelGen(eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance db) {
 		csgdb=db;
 	}
 	@Override
 	public ArrayList<CSG> generateCad(DHParameterKinematics d, int i) {
 		MobileBaseCadManager manager  = MobileBaseCadManager.get(csgdb,d.getLinkConfiguration(i));
 		TransformNR offset = d.getDHStep(i).inverse();
-		
 		ArrayList<CSG> back =[]
 		back.add(new Cube(1).toCSG())
 		for(CSG c:back)
