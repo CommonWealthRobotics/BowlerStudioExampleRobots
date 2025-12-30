@@ -24,22 +24,22 @@ class servoWheelGen implements ICadGenerator{
 		Affine lastLinkAffine = i==0? d.getRootListener() :d.getListener(i-1);
 		Affine manipulator = d.getListener(i);
 		
-		if(manager!=null) {
-			back.addAll(manager.getOriginVitaminsDisplay(csgdb,
-				d.getAbstractLink(i),
-				manipulator,offset));
-			back.addAll(manager.getDefaultVitaminsDisplay(csgdb,
-				d.getAbstractLink(i),
-				manipulator));
-			back.addAll(manager.getPreviousLinkVitaminsDisplay(csgdb,
-				d.getAbstractLink(i),
-				lastLinkAffine));
-		}else{
-			println "No manager found for "+d.getScriptingName()+" "+i
-		}
-		for(CSG c:back) {
-			c.getStorage().set("no-physics",true)
-		}
+//		if(manager!=null) {
+//			back.addAll(manager.getOriginVitaminsDisplay(csgdb,
+//				d.getAbstractLink(i),
+//				manipulator,offset));
+//			back.addAll(manager.getDefaultVitaminsDisplay(csgdb,
+//				d.getAbstractLink(i),
+//				manipulator));
+//			back.addAll(manager.getPreviousLinkVitaminsDisplay(csgdb,
+//				d.getAbstractLink(i),
+//				lastLinkAffine));
+//		}else{
+//			println "No manager found for "+d.getScriptingName()+" "+i
+//		}
+//		for(CSG c:back) {
+//			c.getStorage().set("no-physics",true)
+//		}
 		if(manager!=null) {
 			back.addAll(manager.getOriginVitamins(csgdb,
 				d.getAbstractLink(i),

@@ -27,7 +27,41 @@
 	<indexLatch>145.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
-
+<vitamins>
+<vitamin>
+<name>shaft</name>
+<type>hobbyServoHorn</type>
+<id>standardMicro1</id>
+<pose>
+	
+<x>0.0</x>
+<y>0.0</y>
+<z>0</z>
+<rotw>1.0</rotw>
+<rotx>-0.0</rotx>
+<roty>-0.0</roty>
+<rotz>-0.0</rotz>
+</pose>
+<frame>origin</frame>
+<script>false</script>
+</vitamin>
+<vitamin>
+<name>electroMechanical</name>
+<type>hobbyServo</type>
+<id>mg92b</id>
+<pose>
+<x>0.0</x>
+<y>0.0</y>
+<z>-5</z>
+<rotw>1.0</rotw>
+<rotx>-0.0</rotx>
+<roty>-0.0</roty>
+<rotz>-0.0</rotz>
+</pose>
+<frame>lastlink</frame>
+<script>false</script>
+</vitamin>
+</vitamins>
 	<passive>false</passive>
 	<mass>0.01</mass>
 	<centerOfMassFromCentroid>
@@ -52,7 +86,7 @@
 	<DHParameters>
 		<Delta>0.0</Delta>
 		<Theta>0.0</Theta>
-		<Radius>5</Radius>
+		<Radius>50</Radius>
 		<Alpha>0.0</Alpha>
 	</DHParameters>
 
@@ -68,16 +102,14 @@
 	<rotz>0.0</rotz>
 
 </ZframeToRAS>
-
 <baseToZframe>
-
 	<x>0</x>
 	<y>0</y>
 	<z>0</z>
-<rotw>0.0068743989862987</rotw>
-<rotx>0.7114756673881949</rotx>
-<roty>0.0068743989863014</roty>
-<rotz>0.7026613009986641</rotz>
+<rotw>0</rotw>
+<rotx>0.7071067811865476</rotx>
+<roty>0</roty>
+<rotz>0.7071067811865476</rotz>
 
 
 </baseToZframe>
