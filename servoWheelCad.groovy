@@ -8,7 +8,7 @@ import eu.mihosoft.vrl.v3d.CSG
 import eu.mihosoft.vrl.v3d.Cube
 import javafx.scene.transform.Affine
 
-class myCadGen implements ICadGenerator{
+class servoWheelGen implements ICadGenerator{
 	eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance csgdb;
 	public myCadGen(eu.mihosoft.vrl.v3d.parametrics.CSGDatabaseInstance db) {
 		csgdb=db;
@@ -83,6 +83,6 @@ class myCadGen implements ICadGenerator{
 	
 }
 
-return new myCadGen(csgdb)
+return new servoWheelGen(csgdb)
 
 

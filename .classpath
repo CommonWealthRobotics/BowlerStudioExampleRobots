@@ -7,6 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry kind="lib" path="/home/hephaestus/bin/CaDoodle-ApplicationInstall/0.27.3/CaDoodle-Application.jar"/>
+	<classpathentry kind="lib" path="/home/hephaestus/bin/CaDoodle-ApplicationInstall/0.27.3/CaDoodle-Application.jar" sourcepath="/CaDoodle-Application"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

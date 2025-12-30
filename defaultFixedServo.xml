@@ -4,7 +4,7 @@
 <name>wheel</name>
 	<cadEngine>
 		<git>https://github.com/madhephaestus/VexVitaminsRobot.git</git>
-		<file>VexVitaminsRobotCad.groovy</file>
+		<file>servoWheelCad.groovy</file>
 	</cadEngine>
 	<kinematics>
 		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
@@ -16,8 +16,8 @@
 	<type>virtual</type>
 	<index>0</index>
 	<scale>1.0</scale>
-	<upperLimit>1000000.0</upperLimit>
-	<lowerLimit>-1000000.0</lowerLimit>
+	<upperLimit>2.147483647E9</upperLimit>
+	<lowerLimit>-2.147483647E9</lowerLimit>
 	<upperVelocity>328.0</upperVelocity>
 	<lowerVelocity>-328.0</lowerVelocity>
 	<staticOffset>0.0</staticOffset>
