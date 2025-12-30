@@ -63,20 +63,22 @@
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<rotx>0.0</rotx>
+	<roty>0.0</roty>
+	<rotz>0.0</rotz>
+
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<x>0</x>
+	<y>0</y>
+	<z>0</z>
+<rotw>0.0068743989862987</rotw>
+<rotx>0.7114756673881949</rotx>
+<roty>0.0068743989863014</roty>
+<rotz>0.7026613009986641</rotz>
+
 
 </baseToZframe>
 
