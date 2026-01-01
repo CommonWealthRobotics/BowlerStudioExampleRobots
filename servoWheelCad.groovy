@@ -51,9 +51,12 @@ class servoWheelGen implements ICadGenerator{
 				d.getAbstractLink(i),
 				lastLinkAffine));
 		}
+
 		for(CSG c:back) {
-			if( c!=null)
+			if( c!=null) {
 				c.setManufacturing({return null})
+				c.setIsHole(true)
+			}
 		}
 		return back;
 	}
